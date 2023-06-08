@@ -1,17 +1,30 @@
-<html>
+<html lang="en">
+
 <head>
-    <title>To-Do List</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="image1/to do 1.png" type="image/x-icon">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <title>TO DO LIST</title>
 </head>
+
 <body>
-    <div class="container">
-        <h1>To-Do List</h1>
-        <form id="task-form">
-            <input type="text" id="task-input" placeholder="Enter a task...">
-            <button type="submit">Add Task</button>
-        </form>
-        <ul id="task-list"></ul>
+    <div class="container-title">
+        <h1>To Do List</h1>
     </div>
-    <script src="script.js"></script>
+    <div class="container">
+        <div class="inputcol">
+            <textarea name="text" placeholder="Enter your task" required="" class="textarea"></textarea>
+            <button type="button" class="buttoninput">Submit<i class="fa-solid fa-check"></i></button>
+        </div>
+    </div>
+    <div class="todolist">
+
+    </div>
 </body>
+
 </html>
